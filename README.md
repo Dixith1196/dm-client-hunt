@@ -1,2 +1,4 @@
 # dm-client-hunt
-This is a client side app hosted with GitHub pages.
+
+[Source Code](https://github.com/Dixith1196/dm-client-hunt)
+[App](https://dixith1196.github.io/dm-client-hunt/)
