@@ -1,0 +1,19 @@
+{
+  "name": "dm-client-hunt",
+  "version": "1.0.0",
+  "description": "This is a client side app hosted with GitHub pages.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dixith1196/dm-client-hunt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dixith1196/dm-client-hunt/issues"
+  },
+  "homepage": "https://github.com/Dixith1196/dm-client-hunt#readme"
+}
