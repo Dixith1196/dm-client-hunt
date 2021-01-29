@@ -38,12 +38,16 @@ async function locationHandler() {
     locationsArray.forEach(function (value) {
         if (isInside(value.Latitude, value.Longitude)) {
             document.getElementById("locationAnswer").innerHTML = value.Name;
+            let utterance = new SpeechSynthesisUtterance("Welcome to the location" + value.Name);
+            speechSynthesis.speak(utterance);
             error = false;
         }
     });
 
     if(error) {
         document.getElementById("error-message").innerHTML = "You're not 30 meters nearer to any place.";
+        let utterance = new SpeechSynthesisUtterance("You're not 30 meters nearer to any place.");
+            speechSynthesis.speak(utterance);
     } else {
         document.getElementById("error-message").innerHTML = "";
     }
