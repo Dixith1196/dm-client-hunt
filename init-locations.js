@@ -1,8 +1,8 @@
 export default [
     {
         Name: 'Horizons Apartments',
-        Latitude: 40.383849,
-        Longitude: -94.887384
+        Latitude:  40.35605784611759, 
+        Longitude: -94.8817544161882
     },
     {
         Name: 'Village O Apartments',
